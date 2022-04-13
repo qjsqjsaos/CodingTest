@@ -7,5 +7,9 @@ Rapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test11021.j
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2742.java,4/8/48fcf6c62991ef998b64723c5d572c73bf09c9a4
 Å
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2741.java,e/9/e97fdb482c9bd1edbefdc691daa1c6c3d6c60815
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2438.java,9/d/9d40c0b8c8c843acd49aff37dd4e034a7dd4f47f
+Ç
+Rapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test10871.java,7/4/74a446a3d7739184fd38a0bde551d905d84fd948
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2439.java,2/e/2ee5526f4cc68f2f2564f5dacbc577b0056c3a73

@@ -3,25 +3,40 @@ package com.example.codingtest.stepbystep.twentytwo.april;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-//이거 아직 풀다 말음
+import java.io.OutputStreamWriter;
+import java.io.BufferedWriter;
 
 public class Test1110 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int value = 26;
+        int N = Integer.parseInt(in.readLine());
 
-        int start = value;
+        int x = N;
         //싸이클 카운 횟수
-        int count = 0;
+        int cnt = 0;
 
-        do {
-            start = (start % 10) + ((start / 10) + (start % 10));
-            count++;
-        } while(value != start);
+        while (true) {
+            int q = x / 10; // 십의 자리
+            int r = x % 10;
 
-        System.out.print(count);
+            int sum = q + r;
+
+            x = r * 10 + sum % 10;
+            cnt++;
+
+            if(x == N) {
+                break;
+            }
+        }
+
+        out.write(cnt + "\n");
+
+        out.flush();
+        out.close();
+
+        in.close();
     }
 }
