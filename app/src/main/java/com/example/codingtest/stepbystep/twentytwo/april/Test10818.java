@@ -26,6 +26,6 @@ public class Test10818 {
         int min = Arrays.stream(arr).min().getAsInt();
 
         System.out.print(min + " " + max);
-
+        /t/tsersssdfasd
     }
 }
