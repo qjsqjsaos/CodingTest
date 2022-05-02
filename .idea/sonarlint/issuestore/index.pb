@@ -27,3 +27,7 @@ Rapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test10818.j
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2562.java,b/3/b3da5e2b18c81f91fc28f7f061cf7dbf9c903fc9
 Å
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2577.java,5/3/53208ebe4c6e232ff893cee26cd4f334587bc63e
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test3052.java,2/2/2295415492813c1e6965f586533bfd078b694bef
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test1546.java,6/6/66fe73dbcd91d19cd12ddaaf9ee938d0a4bf448f
