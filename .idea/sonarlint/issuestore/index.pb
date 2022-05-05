@@ -31,3 +31,13 @@ Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test2577.ja
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test3052.java,2/2/2295415492813c1e6965f586533bfd078b694bef
 Å
 Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test1546.java,6/6/66fe73dbcd91d19cd12ddaaf9ee938d0a4bf448f
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test8958.java,5/0/50ab012cf5332218bc87468fdc10a1f079edcdb6
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test4344.java,f/3/f3d38ee671d63d6c847deb2b660a76e930355663
+Ç
+Rapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test15596.java,a/f/afc51290d922c6e914932cb6a185cdeff0584035
+Å
+Qapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/april/Test1065.java,c/d/cd074acd73b345ffbd6d17a79b9d03a2275538ad
+Ä
+Papp/src/main/java/com/example/codingtest/stepbystep/twentytwo/may/Test11720.java,b/d/bd5a72e008b4d6d2946e51481abcd492ac15df59

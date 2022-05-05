@@ -1,7 +1,5 @@
 package com.example.codingtest.stepbystep.twentytwo.may;
 
-import androidx.core.content.res.TypedArrayUtils;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,15 +16,12 @@ public class Test10809 {
         //모든 값 -1로 초기화
         Arrays.fill(arr, -1);
 
-        String s = "d";
+        String s = br.readLine();
 
         for(int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
 
-            System.out.println(i);
-            System.out.println(ch - 'a');
-
-            if(arr[ch - 'a'] == -1) { //ch에 char "a"를 빼야 문자
+            if(arr[ch - 'a'] == -1) { //'a'는 97 -> ex) d(100) - a(97)
                 arr[ch - 'a'] = i;
             }
         }
@@ -36,5 +31,3 @@ public class Test10809 {
         }
     }
 }
-
-// TODO: 2022-05-03 풀다 말음 
