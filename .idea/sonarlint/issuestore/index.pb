@@ -51,3 +51,5 @@ Oapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/may/Test2675.java
 Oapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/may/Test1157.java,1/9/1944cfc5ad93ad13bb2caa5484747259364d2c7d
 
 Oapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/may/Test1152.java,9/a/9a5920514f297282b8c6e64f7242d6090f2e3843
+
+Oapp/src/main/java/com/example/codingtest/stepbystep/twentytwo/may/Test1316.java,b/8/b812ac4936deecae47ab2e5e8d620b3207d364cd
