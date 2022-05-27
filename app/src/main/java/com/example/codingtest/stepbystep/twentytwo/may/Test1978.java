@@ -21,15 +21,6 @@ public class Test1978 {
         for(int i = 0; i < cnt; i++) {
             int value = Integer.parseInt(st.nextToken());
             
-            char[] digits = st.nextToken().toCharArray();
-
-            //일의 자리 숫자
-            char one = digits[digits.length - 1];
-
-            // TODO: 2022-05-26 푼 문제지만 더 줄여보자 
-
-            if(one == 3)
-            
             if(!((value / 2 > 1 && value % 2 == 0)
                     || (value / 3 > 1 && value % 3 == 0)
                     || (value / 5 > 1 && value % 5 == 0)
@@ -47,10 +38,5 @@ public class Test1978 {
         }
 
         System.out.print(sosu);
-    }
-
-
-    public static boolean isSosu(int sosu) {
-        return (value / 3 > 1 && value % 3 == 0)
     }
 }
