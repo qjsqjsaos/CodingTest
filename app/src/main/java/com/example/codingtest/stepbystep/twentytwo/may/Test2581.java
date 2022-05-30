@@ -48,5 +48,3 @@ public class Test2581 {
         return true;
     }
 }
-
-// TODO: 2022-05-27 풀었지만 더 효율적인 답을 보고 깨달아 보기 
