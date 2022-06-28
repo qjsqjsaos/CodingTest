@@ -83,7 +83,6 @@ public class Step2_1 {
 
                     }
 
-
                     //칸 카운팅
                     cnt++;
 
