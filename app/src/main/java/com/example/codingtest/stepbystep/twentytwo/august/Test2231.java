@@ -34,5 +34,3 @@ public class Test2231 {
         return returnValue;
     }
 }
-
-// TODO: 2022-08-05 문제풀이보기 
