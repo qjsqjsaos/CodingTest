@@ -7,21 +7,24 @@ import java.io.InputStreamReader;
 public class Test2231 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int value = Integer.parseInt(br.readLine());
 
-        int result = getInitialNum(value);
+        String N = br.readLine();
+
+        int valueLength = N.length();
+        int value = Integer.parseInt(N);
+
+        int result = getInitialNum(value, valueLength);
         System.out.print(result);
     }
 
-    private static int getInitialNum(int value) {
-        int initNum = 1;
-        while (true) {
-            int sum = initNum + getCharNumSum(initNum);
+    private static int getInitialNum(int value, int valueLength) {
+        for(int i = (value - (valueLength * 9)); i < value; i++) {
+            int sum = i + getCharNumSum(i);
             if(sum == value) {
-                return initNum;
+                return i;
             }
-            initNum++;
         }
+        return 0;
     }
 
     // 각 자릿수의 합
