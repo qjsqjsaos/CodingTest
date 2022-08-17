@@ -3,7 +3,7 @@ package com.example.codingtest.stepbystep.twentytwo.august;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-// 정답을 맞췄지만, 더 효율적인 방법을 찾아서 답안을 냄
+// 정답을 맞췄지만, 더 효율적인 방법을 찾아서 답안을 냄 (답안은 보고 함)
 public class Test1436 {
     public static void main(String[] args) throws IOException {
 
