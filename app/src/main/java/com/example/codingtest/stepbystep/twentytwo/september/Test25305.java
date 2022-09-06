@@ -23,7 +23,7 @@ public class Test25305 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        Arrays.sort(arr, Collections.reverseOrder()); //오름차순
+        Arrays.sort(arr, Collections.reverseOrder()); //내림차순
 
         System.out.println(arr[k - 1]);
     }
