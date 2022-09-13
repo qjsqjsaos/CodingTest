@@ -24,8 +24,12 @@ public class Test18870 {
         Arrays.sort(arr, (e1, e2) -> {
             if(e1.value < e2.value) {
                 return -1;
+            } else if(e1.value == e2.value) {
+                return 0;
+            } else {
+                return 1;
             }
-            return 1;
+
         });
 
         int rank = 0;
@@ -49,8 +53,11 @@ public class Test18870 {
         Arrays.sort(arr, (e1, e2) -> {
             if(e1.id < e2.id) {
                 return -1;
+            }else if(e1.value == e2.value) {
+                return 0;
+            } else {
+                return 1;
             }
-            return 1;
         });
 
 
@@ -59,8 +66,6 @@ public class Test18870 {
         }
 
         System.out.print(sb);
-
-        // TODO: 2022/09/13  런타임 에러 (IllegalArgument) 
 
     }
 
