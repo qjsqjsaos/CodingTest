@@ -53,7 +53,7 @@ public class Test18870 {
         Arrays.sort(arr, (e1, e2) -> {
             if(e1.id < e2.id) {
                 return -1;
-            }else if(e1.value == e2.value) {
+            }else if(e1.id == e2.id) {
                 return 0;
             } else {
                 return 1;
