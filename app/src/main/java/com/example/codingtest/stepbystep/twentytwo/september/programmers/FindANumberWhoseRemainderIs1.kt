@@ -1,5 +1,7 @@
 package com.example.codingtest.stepbystep.twentytwo.september.programmers
 
+import java.util.*
+
 //나머지가 1이 되는 수 찾기
 class FindANumberWhoseRemainderIs1 {
     fun solution(n: Int): Int {
