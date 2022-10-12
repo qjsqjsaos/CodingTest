@@ -1,22 +1,11 @@
 package com.example.codingtest.stepbystep.twentytwo.october.programmers
 
-class TakeTwoAndAdd {
+//두 개 뽑아서 더하기
+class Solution {
+    fun solution(numbers: IntArray): IntArray =
+        numbers.withIndex().flatMap { i -> numbers.withIndex().map { j -> i to j } }
+            .filter { it.first.index != it.second.index }
+            .map { it.first.value + it.second.value }
+            .toSortedSet()
+            .toIntArray()
 }
-
-fun main() {
-    val numbers = intArrayOf(
-        2,1,3,4,1
-    )
-    val arr = arrayListOf<Int>()
-    numbers.forEachIndexed { index, i ->
-        repeat(numbers.size) { re ->
-            if(index != re) {
-                arr.add(i + numbers[re])
-            }
-        }
-    }
-    val list = arr.toList().distinct().sorted().toIntArray()
-    print(list)
-}
-
-// TODO: 다 풀긴했는데, 아직 제대로된 풀이는 보지 못함
