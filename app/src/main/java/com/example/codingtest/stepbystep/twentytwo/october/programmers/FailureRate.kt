@@ -25,7 +25,6 @@ class FailureRate {
 
             // 실패율 구하기
             // 소수점을 비교하기 위해 Float을 사용하고,
-            // 소수점 아래 4번째까지 반올림을 하여, 무한으로 나누어져버려 overflow가 생기는 것 방지 ex) pi
             val failureRate = if (notCleardLength != 0) notCleardLength / cleardLength else 0f
 
             //실패율 맵에 넣어주기
@@ -35,6 +34,7 @@ class FailureRate {
             //cleardLength에서 notCleardLength를 빼주어야한다.
             cleardLength -= notCleardLength
         }
+
         //이제 실패율을 담은 맵을 리스트로 변환후 실패율로 내림차순 정렬뒤 스테이지의 종류를 따로 맵핑하여, intArray로 변환해줍니다.
         result = fRMap.toList().sortedByDescending { it.second }.map { it.first }.toIntArray()
 
