@@ -2,52 +2,37 @@ package com.example.codingtest.stepbystep.twentytwo.november.programmers
 
 //숫자 짝꿍
 class NumberMate {
-}
+    fun solution(X: String, Y: String): String {
+        val answer = StringBuilder()
 
-fun main() {
-    val X = "5525"
-    val Y = "1255"
+        val arrX = IntArray(10)
+        val arrY = IntArray(10)
 
-    var calX: String
-    var calY: String
+        countNumInArr(X, arrX)
+        countNumInArr(Y, arrY)
 
-    if (X.length > Y.length) {
-        calX = X
-        calY = Y
-    } else {
-        calX = Y
-        calY = X
-    }
-
-    val sb = StringBuilder()
-
-    for(x in calX.toCharArray()) {
-        y@for(y in calY.toCharArray()) {
-            if(x == y) {
-                sb.append(y)
-                calY = calY.replaceFirst(x.toString(), "")
-                break@y
+        for (i in arrX.indices.reversed()) {
+            while (arrX[i] >= 1 && arrY[i] >= 1) {
+                arrX[i]--
+                arrY[i]--
+                answer.append(i)
             }
         }
+
+        val result = if (answer.toString() == "") {
+            "-1"
+        } else if (answer.toString().startsWith("0")) {
+            "0"
+        } else {
+            answer.toString()
+        }
+        return result
     }
 
-    if (sb.toString() == "") {
-        sb.append("-1")
-    } else if (sb.count { it.toString() == "0" } >= 2) {
-        //0이 2개 이상일 경우
-        //0 하나로 교체
-        sb.replace(0, sb.length, "0")
-    } else {
-        //위에 조건이 다 아니라면 내림차순 정렬
-        sb.replace(0, sb.length,
-            sb.map {
-                it.digitToInt()
-            }.sortedDescending().joinToString("")
-        )
+    private fun countNumInArr(str: String, arr: IntArray) {
+        for (element in str) {
+            val index = element - '0'
+            arr[index]++
+        }
     }
-
-    print(sb.toString())
-
 }
-
-// TODO: 이거 힌트보고 다시 풀어보자..시간초과가 됨 
